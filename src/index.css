@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+/* Custom theme colors using CSS variables or Tailwind's theme() function if needed, 
+   but for v4 simple @apply on standard colors is often enough, or define variables in @theme */
+
+@theme {
+  --color-primary: #0f172a;
+  --color-primary-light: #1e293b;
+  --color-accent: #0d9488;
+  --color-accent-hover: #0f766e;
+  --color-secondary: #f8fafc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-bold tracking-tight;
+}
+
+.btn {
+  @apply px-6 py-3 rounded-md font-semibold transition-all duration-200 inline-block cursor-pointer;
+}
+
+.btn-primary {
+  @apply bg-accent text-white hover:bg-accent-hover shadow-md hover:shadow-lg active:scale-95;
+}
+
+.btn-secondary {
+  @apply bg-white text-primary border border-slate-200 hover:bg-slate-50 shadow-sm active:scale-95;
+}
+
+.glass {
+  @apply bg-white/80 backdrop-blur-md border border-white/20;
+}
