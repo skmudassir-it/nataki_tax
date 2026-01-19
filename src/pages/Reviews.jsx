@@ -11,7 +11,7 @@ const Reviews = () => {
             name: 'Sarah Jenkins',
             company: 'Bloom & Co.',
             role: 'Founder',
-            text: 'TaxPro transformed our business compliance. Their team is knowledgeable, responsive, and truly cares about our success. The transition from our previous accountant was seamless.',
+            text: 'Nataki Tax Consultancy transformed our business compliance. Their team is knowledgeable, responsive, and truly cares about our success. The transition from our previous accountant was seamless.',
             rating: 5,
             type: 'business',
             date: 'Jan 2026'
@@ -81,7 +81,7 @@ const Reviews = () => {
                     </motion.div>
                     <h1 className="text-4xl lg:text-6xl font-extrabold text-primary mb-6">Client Success Stories</h1>
                     <p className="text-slate-600 text-lg max-w-2xl mx-auto">
-                        We take pride in delivering exceptional value to our clients. Here's what they have to say about working with TaxPro.
+                        We take pride in delivering exceptional value to our clients. Here's what they have to say about working with Nataki.
                     </p>
                 </div>
             </section>

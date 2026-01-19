@@ -53,9 +53,9 @@ const SEO = ({ title, description, keywords, canonical }) => {
                         "closes": "18:00"
                     },
                     "sameAs": [
-                        "https://www.facebook.com/taxpro",
-                        "https://www.twitter.com/taxpro",
-                        "https://www.linkedin.com/company/taxpro"
+                        "https://www.facebook.com/natakitax",
+                        "https://www.twitter.com/natakitax",
+                        "https://www.linkedin.com/company/natakitax"
                     ]
                 })}
             </script>

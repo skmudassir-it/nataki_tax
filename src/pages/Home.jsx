@@ -2,6 +2,7 @@ import { ShieldCheck, Scale, Clock, TrendingUp } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import heroImage from '../assets/images/hero_tax_consultancy.png';
 
 const Home = () => {
     const benefits = [
@@ -64,7 +65,7 @@ const Home = () => {
                             <div className="absolute -inset-4 bg-accent/5 rounded-3xl -rotate-2"></div>
                             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/50">
                                 <img
-                                    src="/src/assets/images/hero_tax_consultancy.png"
+                                    src={heroImage}
                                     alt="Tax Expert at work"
                                     className="w-full h-auto"
                                 />
@@ -90,7 +91,7 @@ const Home = () => {
             <section className="py-20 bg-slate-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">Why Choose TaxPro?</h2>
+                        <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">Why Choose Nataki?</h2>
                         <p className="text-slate-600 max-w-2xl mx-auto">We combine technical expertise with personal service to deliver results that impact your bottom line.</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
